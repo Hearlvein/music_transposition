@@ -1,0 +1,6 @@
+Here's a code that trains a genre classifier using the small fma dataset and a code that uses the mel spectogram to alter an existing audio.
+The goal is to have one system able to perform music genre transposition. Using a GAN with the trained classifier on the fma dataset, adjust the alteration of the music to try to match the requested music genre.
+Example input: "myaudio.mp3", "rock"
+Output : "output.mp3" which is the generated rock version of the input, regardless of the original music genre.
+The trained genre classifier is far from perfect, so it will be hard to match the perfectly the requested genre. Just approaching it enough is okay.
+Using ideas from the code snippets provided and any good suggestion and linking between the concepts, conceive the music genre transposition full algorithm
